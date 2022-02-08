@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'monacc/css/style.css' %}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+
+<h1>salut et bienvenu  sur ma page </h1>
+
+<h2><a href="{% url 'index1' %}">suivante</a></h2>
+
+<img src="{% static 'monacc/image/Capture.png ' %}">
+<video controls src="{% static 'monacc/image/js.mp4'%}"></video>
+
+
+
+{% block body %}
+
+{% for i in malist %}
+    {{i|capfirst}}
+{% endfor %}
+
+
+{% endblock %}
+
+
+        <p>ce nombre est {{ resu | add:'100' }}</p>
+{% if resu|length > 1 %}
+    <p>hello</p>
+    {% else %}
+        <p>grand</p>
+{% endif %}
+</body>
+</html>
