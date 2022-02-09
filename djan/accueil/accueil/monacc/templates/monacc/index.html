@@ -10,7 +10,7 @@
 <body>
 
 
-
+<a href="{% url 'aff' %}">affiche_donnees</a>
 
 <h1>salut et bienvenu  sur ma page </h1>
 
@@ -21,21 +21,7 @@
 
 
 
-{% block body %}
-
-{% for i in malist %}
-    {{i|capfirst}}
-{% endfor %}
 
 
-{% endblock %}
-
-
-        <p>ce nombre est {{ resu | add:'100' }}</p>
-{% if resu|length > 1 %}
-    <p>hello</p>
-    {% else %}
-        <p>grand</p>
-{% endif %}
 </body>
 </html>
