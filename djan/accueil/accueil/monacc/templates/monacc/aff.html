@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +13,7 @@
 {{produit.prix}}
 
     {% if produit.image %}
-        <img src="{% static produit.image.url %}">
+        <img src="{{ produit.image.url }}">
         {% else %}
             <p>no image</p>
     {% endif %}

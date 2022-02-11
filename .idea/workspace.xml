@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="60e1522a-b813-44f1-a2b8-651719e1dedd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djan/accueil/accueil/accueil/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djan/accueil/accueil/accueil/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djan/accueil/accueil/accueil/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djan/accueil/accueil/accueil/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djan/accueil/accueil/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djan/accueil/accueil/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djan/accueil/accueil/image/16435318542511.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djan/accueil/accueil/monacc/static/monacc/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djan/accueil/accueil/monacc/static/monacc/image/Capture.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/djan/accueil/accueil/monacc/templates/monacc/aff.html" beforeDir="false" afterPath="$PROJECT_DIR$/djan/accueil/accueil/monacc/templates/monacc/aff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djan/accueil/accueil/monacc/templates/monacc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/djan/accueil/accueil/monacc/templates/monacc/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djan/accueil/accueil/monacc/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djan/accueil/accueil/monacc/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

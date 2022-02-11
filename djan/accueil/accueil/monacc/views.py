@@ -31,8 +31,8 @@ def nav(request):
     return render(request, 'monacc/nav.html')
 
 def aff(request):
-    produit = Produit.objects.get(id=4)
+    produit = Produit.objects.get(id=5)
     context ={
-       'produit' :produit
+       'produit':produit
     }
     return render(request, 'monacc/aff.html', context)
