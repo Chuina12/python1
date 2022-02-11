@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +10,15 @@
 {% block context %}
 {{produit.nom}}</br>
 {{produit.prix}}
+
+    {% if produit.image %}
+        <img src="{% static produit.image.url %}">
+        {% else %}
+            <p>no image</p>
+    {% endif %}
+
+
+
 {% endblock %}
 </body>
 </html>
